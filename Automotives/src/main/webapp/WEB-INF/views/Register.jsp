@@ -15,10 +15,16 @@
   <script src="https://use.fontawesome.com/9c842829ac.js"></script>
 </head>
 
-<body>
+<style>
+body 
+{
+        background-image: url("https://www.planwallpaper.com/static/images/518164-backgrounds.jpg ");
+} 
+ 
+</style> 
   
-<h1> Registration Form</h1>
-<form:form action="Register" method="post" commandName="Register"  >
+<center><h1> Registraction Form</h1></center>
+  <center><form:form action="Register" method="post" commandName="Register"  >
 
 			<table style="width: 50%">
 			<tr>
@@ -53,6 +59,6 @@
 			</table>
 			
 			<input type="submit" value="Submit" />
-</form:form>
+</form:form></center>
 					</body>
 </html>

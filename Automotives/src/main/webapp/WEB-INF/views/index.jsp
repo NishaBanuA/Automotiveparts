@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
   <title>Automotives</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,20 +42,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
+      <div class="container">
+  <div class="house">
+  </div>
+   <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"><a href="#"></a></li>
+      <li class="active">
+        <li class="fa fa-car">
+        <i class="fa fa-car" style="font-size:30px;color:white
+
+;"></i>
+  </div>
+</li>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        
+        <li><a href="AboutUs">AboutUs</a></li>
+        
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
         <li><a href="Register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -67,9 +75,9 @@
     pageEncoding="ISO-8859-1"%>
 
   
- <div class="container-fluid">
+    <div class="container-fluid">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            
+            <h1>AUTOMOTIVE PARTS.......</h1>
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -87,16 +95,16 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img class="second-slide home-image" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7BQGHtVkIw8PSfV3A3udoyx-DB8wIIwFWYZzmAmlIyMkeWbI"style="width:100%">
-                    <div class="container">
-                        <div class="carousel-caption">
+                    <img class="second-slide home-image" src= "http://image.cpsimg.com/sites/carparts-mc/design/collage.jpg" style="width:100%">
+                                            <div class="container">
+                                            <div class="carousel-caption">
                             <<!-- h1>The Mobile Store.</h1>
                             <p>online shopping can make your life more easier</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="third-slide home-image " src="https://archautoparts.com/wp-content/uploads/2015/06/arch-auto-parts-composite-homepage.jpg" style=""width:100">
+                    <img class="third-slide home-image " src="http://www.brownsautosupplies.ca/uploads/737x0_930x0/3niuyxvzwv-76c1d82b-9e7c-028e-858d-422372f54b94.jpg" style="width:100%">
                     <div class="container">
                         <div class="carousel-caption">
                             <!-- <h1>The Mobile You Love</h1> -->
@@ -104,7 +112,6 @@
                         </div>
                     </div>
                 </div>
-                 
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
@@ -119,59 +126,70 @@
 
 </html>
   
-<div class="container text-center">    
-  <h3>What We Do</h3>
+    <div class="container text-center">    
+  <h3>Car Accessories</h3>
+  <br>
   <br>
   <div class="row">
     <div class="col-sm-3">
-      <img src="https://placehold.it/150x80?text=IMAGE"  class="" style="width:100%" alt="Image">
-      <p>Current Project</p>
+      <img src="http://g-ecx.images-amazon.com/images/G/31//img17/Auto/June17/carstore/store_1.jpg"  class="img-responsive" style="width:100%" alt="Image">
+      <p>car parts& spares</p>
     </div>
     <div class="col-sm-3"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="http://g-ecx.images-amazon.com/images/G/31//img17/Auto/June17/carstore/store_2.jpg" class="img-responsive" style="width:100%" alt="Image">
       
-      <p>Project 2</p>    
-    
+      <p>Lubricants@additives</p>    
     </div>
+       
     <div class="col-sm-3">
-     </div></div> 
-  </div>
-  <hr>
-</div>
+      <img src="http://g-ecx.images-amazon.com/images/G/31//img17/Auto/June17/carstore/store_3.jpg"  class="img-responsive" style="width:100%" alt="Image">
+      <p>Car tyres</p>
+    </div>
+     
+    <div class="col-sm-3">
+      <img src="http://g-ecx.images-amazon.com/images/G/31//img17/Auto/June17/carstore/store_4.jpg"  class="img-responsive" style="width:100%" alt="Image">
+      <p>Car air freshers </p>
+    </div>
+     
+      
+    </div></div>
+  
+  </hr>
+
 
 <div class="container text-center">    
-  <h3>Our Partners</h3>
+  <h3>DEMO PRODUCTS</h3>
   <br>
   <div class="row">
     <div class="col-sm-2">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 1</p>
+      <img src="http://ecx.images-amazon.com/images/I/51S7fSeuUFL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>
     </div>
     <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 2</p>    
+      <img src="http://ecx.images-amazon.com/images/I/51h2WnueLxL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>    
     </div>
     <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 3</p>
+      <img src="http://ecx.images-amazon.com/images/I/41PRXuOHnNL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>
     </div>
     <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 4</p>
+      <img src="http://ecx.images-amazon.com/images/I/51ihM9TptGL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>
     </div> 
     <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 5</p>
+      <img src="http://ecx.images-amazon.com/images/I/41mIfl+-poL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>
     </div>     
     <div class="col-sm-2"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Partner 6</p>
+      <img src="http://ecx.images-amazon.com/images/I/41kFZuMvGxL._AC_US160_.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p></p>
     </div> 
   </div>
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>COMMING SOON...</p>
 </footer>
 
 </body>

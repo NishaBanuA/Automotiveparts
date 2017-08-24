@@ -15,12 +15,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/9c842829ac.js"></script>
 </head>
-
-<body>
-  
-<h1> Add Product Form</h1>
-
-<form:form action="AddProduct" method="post" modelAttribute="prdt" enctype="multipart/form-data" >
+<style>
+body 
+{
+        background-image: url("https://www.planwallpaper.com/static/images/518164-backgrounds.jpg ");
+} 
+ 
+</style> 
+<center><h1> Add Product Form</h1></center><br><br>
+     <center><form:form action="AddProduct" method="post" modelAttribute="prdt" enctype="multipart/form-data" >
 
 			<table style="width: 50%">
 			<tr>
@@ -58,8 +61,8 @@
 				</tr>
 			</table>
 			
-			<form:button type="submit" >Add</form:button>
-</form:form>
+			<br><center><form:button type="submit"  >Add</form:button></center>
+</form:form></center>
 
 </body>
 </html>

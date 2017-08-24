@@ -44,7 +44,7 @@ Search:<input type=text placeholder="Search" ng-model="searchText"/>
  	<td bgcolor="white">{{prod.pdesc}}</td>
  
  	<!-- <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="40" width="40" align="middle"/></td>-->
- <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="30" width="30" align="middle"></img></td>
+ <td bgcolor="white"><img src="resource/images/{{prod.pid}}.jpg" height="30" width="30" align="middle"></img></td>
  	
     <td bgcolor="white">{{prod.pquan}}</td><td bgcolor="white">{{prod.pcost}}</td>
  	<td bgcolor="white"><a href="EditProduct?id={{pid=prod.pid}}">Edit</a></td>

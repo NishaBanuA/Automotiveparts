@@ -4,11 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>ADMIN </title>
 </head>
 <body>
-<a href="AddProduct">AddProduct</a>
-<a href="ViewProduct">ViewProduct</a>
+<CENTER><H1>ADMIN</H1></CENTER>
+<BR><BR><BR>
+ 
+ <style>
+body {
+        background-image: url("https://www.planwallpaper.com/static/images/518164-backgrounds.jpg ");
+} 
+ 
+</style> 
+<h2><center><a href="AddProduct">1.ADD PRODUCT</a></center></h2>
 
+    <h2><center><a href="ViewProduct">2.VIEW PRODUCT</a></center></h2>
 </body>
 </html>
