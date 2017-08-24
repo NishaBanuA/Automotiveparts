@@ -17,7 +17,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
     http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
                <mvc:annotation-driven/>
-             <mvc:resources mapping="/resource/images" location="/resource/" />
+             <mvc:resources mapping="/resources/images/" location="/resources/" />
                  <mvc:default-servlet-handler/>
        
   <context:component-scan base-package="com.Automotives.*" />

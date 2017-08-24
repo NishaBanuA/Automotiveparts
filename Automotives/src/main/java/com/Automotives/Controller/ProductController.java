@@ -89,8 +89,8 @@ pdao.addProduct(prdt);
 
 
 		
-String path="C:\\Users\\Welcom\\Automotives\\Automotives\\src\\main\\webapp\\resources\\";
-		
+//String path="C:\\Users\\Welcom\\Automotives\\Automotives\\src\\main\\webapp\\resources\\images\\";
+String path="C:\\Users\\Welcom\\github\\Automotives\\src\\main\\webapp\\resources\\images";
 		
 path=path+String.valueOf(prdt.getPid())+".jpg";
 		
