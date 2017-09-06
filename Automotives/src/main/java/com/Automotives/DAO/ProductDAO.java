@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 import com.Automotives.model.Product;
+import com.google.gson.Gson;
 
 @Transactional
 
@@ -112,7 +113,7 @@ Session session = sessionFactory.openSession();
 }
 	
 	
-/*public String[] showcatseller()
+public String[] showcatseller()
 
 	{
 		
@@ -145,7 +146,7 @@ session.close();
 return cat;
 		
 	
-}*/
+}
 	
 	
 public void editProduct(Product editprod)

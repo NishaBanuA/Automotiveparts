@@ -59,7 +59,8 @@
         <li class="active"><a href="#">Home</a></li>
         
         <li><a href="AboutUs">AboutUs</a></li>
-        
+        <li><a href="Login">Login</a></li>
+        <li><a href="FullProduct">Full Product</a></li>
       </ul>
           <ul class="nav navbar-nav navbar-right">
         <li><a href="Register"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
@@ -67,6 +68,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="Admin"><span class="glyphicon glyphicon-log-in"></span> Admin</a></li>
       </ul>
+      
     </div>
   </div>
 </nav>

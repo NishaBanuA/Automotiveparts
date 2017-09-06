@@ -17,7 +17,7 @@
               
     });
 </script>
-<jsp:include page="Admin.jsp"></jsp:include>
+
 <!-- <body background=" resources/admin1.jpg">-->
   <div class="container">
   <form:form action="AddProduct" method="POST" commandName="Product">

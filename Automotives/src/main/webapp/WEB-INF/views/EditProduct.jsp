@@ -33,32 +33,24 @@ html{
  	background-color: #d3d3d3;
  	font-family: 'Oxygen', sans-serif;
 }
-
 .main{
  	margin-top: 70px;
 }
-
-
-
 hr{
 	width: 10%;
 	color: #fff;
 }
-
 .form-group{
 	margin-bottom: 15px;
 }
-
 label{
 	margin-bottom: 15px;
 }
-
 input,
 input::-webkit-input-placeholder {
     font-size: 11px;
     padding-top: 3px;
 }
-
 .main-login{
  	background-color: #fff;
     /* shadows and rounded borders */
@@ -68,28 +60,22 @@ input::-webkit-input-placeholder {
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-
 }
-
 .main-center{
  	margin-top: 30px;
  	margin: 0 auto;
  	max-width: 330px;
     padding: 40px 40px;
-
 }
-
 .login-button{
 	margin-top: 5px;
 }
-
 .login-register{
 	font-size: 11px;
 	text-align: center;
 }
-
     </style>
-  <!-- <body background=" resources/admin1.jpg">-->
+
 		<jsp:include page="Admin.jsp"></jsp:include>
 		<div class="container">
 			<div class="row main">
@@ -105,7 +91,7 @@ input::-webkit-input-placeholder {
 
 						
 						<div class="form-group">
-							<label>Product ID<label>
+							<label>Product ID</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"></span>
@@ -115,7 +101,7 @@ input::-webkit-input-placeholder {
 						</div>	
 							
 							<div class="form-group">
-							<label>Product Quantity<label>
+							<label>Product Quantity</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i ></i></span>
@@ -125,7 +111,7 @@ input::-webkit-input-placeholder {
 						</div>						
 
 						<div class="form-group">
-							<label>Product Price<label>
+							<label>Product Price</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i ></i></span>
@@ -153,5 +139,3 @@ input::-webkit-input-placeholder {
 
 
 <br/><br/>
-
-  

@@ -11,11 +11,11 @@ public class HomeController {
 	return "index";
 	}
 	
-	@RequestMapping("/Login")
+	/*@RequestMapping("/Login")
 	public String Login()
 	{
 	return "Login";
-	}
+	}*/
 	@RequestMapping("/Admin")
 	   public String Admin()
 	  {
@@ -34,13 +34,13 @@ public String AboutUs()
 return "AboutUs";
 }
 
-  /* @RequestMapping("/AddProduct")
+  /* @RequestMapping("/FullProduct")
    public String AddProduct()
    {
-   return "AddProduct";
-   }
+   return "FullProduct";
+   }*/
 
-   @RequestMapping("/ViewProduct")
+  /* @RequestMapping("/ViewProduct")
    public String ViewProduct()
    {
    return "ViewProduct";

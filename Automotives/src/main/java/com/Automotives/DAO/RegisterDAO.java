@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.Automotives.model.Register;
+import com.Automotives.model.Usercredentialmodel;
 
 @Repository
 public class RegisterDAO 
@@ -30,13 +31,12 @@ System.out.println("Register DAO");
 		
 System.out.println(r.getUsername());
 		
-/*UserCredential uc=new ();
+Usercredentialmodel user=new Usercredentialmodel();
 		
-uc.setUsername(r.getUsername());
+
+user.setPassword(r.getPassword());
 		
-uc.setPassword(r.getPassword());
-		
-System.out.println("User Credentials");*/
+System.out.println("User Credentials");
 		
 try
 		
@@ -46,11 +46,11 @@ Session session= sessionFactory.openSession();
 		
 Transaction tx=session.beginTransaction();
 		
-//tx.begin();
+tx.begin();
 		
 session.save(r);
 		
-//session.save(uc);
+session.save(user);
 		
 tx.commit();
 		

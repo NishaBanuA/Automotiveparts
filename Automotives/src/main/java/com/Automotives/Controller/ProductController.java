@@ -89,8 +89,8 @@ pdao.addProduct(prdt);
 
 
 		
-//String path="C:\\Users\\Welcom\\Automotives\\Automotives\\src\\main\\webapp\\resources\\images\\";
-String path="C:\\Users\\Welcom\\github\\Automotives\\src\\main\\webapp\\resources\\images";
+String path="C:\\Users\\Welcom\\Automotives\\Automotives\\src\\main\\webapp\\resources\\";
+		
 		
 path=path+String.valueOf(prdt.getPid())+".jpg";
 		
@@ -174,7 +174,7 @@ return mv;
 }
 	
 	
-/*@RequestMapping(value="/FullProduct",method=RequestMethod.GET)
+@RequestMapping(value="/FullProduct",method=RequestMethod.GET)
 	
 public String userview(Model m)
 	
@@ -198,7 +198,7 @@ public ModelAndView viewdescrp(@RequestParam("id")int pid,Model m)
 	
 {
 		
-System.out.println("Hello");
+
 		
 System.out.println(pid);
 		
@@ -217,36 +217,36 @@ return mv;
 	//System.out.println(getdata());
 		
 	
-}*/
+}
 	
 
 	
-//@RequestMapping(value="/AddToCart",method=RequestMethod.GET)
+@RequestMapping(value="/AddToCart",method=RequestMethod.GET)
 	
-/*public ModelAndView addtocart(@RequestParam("addpid")int pid,Model m)
+public ModelAndView addtocart(@RequestParam("addpid")int pid,Model m)
 	
 {
 		
-System.out.println("Hello");
+//System.out.println("Hello");
 		
-//System.out.println(pid);
+System.out.println(pid);
 		
 Product p=pdao.showProduct(pid);
-}		
-/*Gson gson = new Gson();
+		
+Gson gson = new Gson();
 		
 String list=gson.toJson(p);
 		
 m.addAttribute("list1",list);
 	   
-// ModelAndView mv=new ModelAndView("AddToCart","Product",new Product());
+ModelAndView mv=new ModelAndView("AddToCart","Product",new Product());
 		
 return mv;
 		
-//	System.out.println(getdata());
+	//System.out.println(getdata());
 		
 	
-}*/
+}
 	
 	
 @RequestMapping(value="/EditProduct",method=RequestMethod.GET)
